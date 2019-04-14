@@ -1,0 +1,155 @@
+/*colors
+#2C3531 - dark blueish-grey
+#116466 - royalish-blue
+#376E6F - lighter version of #116466
+
+#D9B08C - earth tan
+#FFCB9A - tannish
+#D1E8E2 - light blue variant
+*/
+
+html {
+	font-family: 'Open Sans', sans-serif;
+  } 
+  
+  body{
+	margin: 0px;
+  }
+ /* begin navbar */
+  .navbar {
+	background: #2C3531;
+	border-bottom: 7px solid #FFCB9A;
+	font-size: 1.5em;
+  }
+  
+  .navbar div{ 
+	display: none;
+	}
+	
+	#picture{
+		width: 32px;
+		height: 32px;
+		position:relative;
+		top: 7px;
+	}
+	
+  
+  .navbar .toggle,
+  .navbar .brand{
+	display: inline-block;
+  }
+  
+  .navbar .link {
+	display: block;
+	text-align: center;
+	padding: 1em;
+	/* transition: 0.5s ease-in-out; */
+	text-decoration: none;
+	background: #2C3531;
+	color: #FFCB9A;
+  }
+  
+  .navbar .link:hover,
+  .navbar .link:active {
+	color: #D1E8E2;
+	background: #116466;
+	}
+  
+  .navbar .brand {
+	width: 10em;
+	text-align: center;
+	padding: 1em;
+	color: #FFCB9A;
+  }
+  
+  .navbar a {
+	text-decoration: none;
+  }
+  
+  .navbar .toggle {
+	padding: 1em;
+	color: #FFCB9A;
+  }
+  @media (min-width: 48em) {
+		.navbar {
+			display: flex;
+		}
+		.navbar .left,
+		.navbar .right {
+			display: flex;
+			flex: 1;
+		}
+		.navbar .link {
+			width: auto;
+		}
+		.navbar .right {
+			justify-content: flex-end;
+		}
+		.navbar .toggle {
+			display: none;
+		}
+	}
+	@media (min-width: 48em) {
+		.navbar div {
+			display: flex;
+		}
+	}
+	@media (max-width: 48em) {
+		.navbar.active .toggle {
+			background: #116466;
+			color: #FFCB9A;
+		}
+		
+		.navbar {
+			border-bottom: 5px solid #FFCB9A;
+			
+		}
+
+		.navbar .brand {
+			text-align: left;
+		}
+		.navbar.active div {
+			display: block;
+		}
+	  .navbar .link {
+		display: block;
+		text-align: center;
+		padding: 1em;
+		text-decoration: none;
+		background: #116466;
+		color: #FFCB9A;
+	  }
+
+	  .navbar .link:hover,
+	  .navbar .link:active {
+		color: #D1E8E2;
+		background: #2C3531;
+		}
+
+		.left{
+			border-top: 2px solid #FFCB9A; /* 767px custom border */
+		}
+		
+	}
+	
+	/* end navbar */
+
+	.content-wrapper {
+		margin: 0px;
+		background: #376E6F;
+		color: black;
+		height: 1000px;
+	}
+  
+  .footer {
+	font-family: "Roboto", sans-serif;
+	color: #ffcb9a;
+	margin: 0px;
+	background: #116466;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 5px solid #ffcb9a;
+	border-bottom: 8px solid;
+  }

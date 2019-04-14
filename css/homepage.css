@@ -1,0 +1,32 @@
+.content-wrapper {
+	margin: 0px;
+	background-image: url(../images/Bridge.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+  }
+  
+  .content-wrapper > .link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65px;
+	width: 120px;
+	background: #116466;
+	border-radius: 25px;
+  }
+  
+  .link a {
+	font-family: "Open Sans", sans-serif;
+	color: #ffcb9a;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.5em;
+  }
+   
+
+  
+ 

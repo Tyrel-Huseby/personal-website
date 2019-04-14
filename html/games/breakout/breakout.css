@@ -1,0 +1,64 @@
+* { padding: 0; margin: 0;}
+
+.content-wrapper{
+	display: block;
+}
+
+canvas { 
+	background: #eee; 
+    display: block; 
+    margin: 0 auto;
+	cursor: none;
+	border: 7px solid#FFCB9A;
+}
+
+.white-space{
+	height: 80px;
+}
+
+#scorebar {
+	margin: 0 auto;
+	padding: 5px 0px;
+	height: 37px;
+	width: 960px;
+	font-family: Arial;
+	font-size: 16px;
+	background: #eee;
+	color: #0095DD;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	text-align: center;
+	grid-gap: 30px;
+	border: 7px solid #FFCB9A;
+}
+
+#btn{
+	border: none;
+	background: limegreen;
+	cursor: pointer;
+
+}
+#btn h1{
+	padding: 0px 10px; 
+}
+
+#button-wrapper{
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+#quit-btn{
+	align-self: end;
+	border: none;
+	background: red;
+	cursor: pointer;
+	padding: 0px 10px;
+	text-align: center;
+	border: 2px solid #FFCB9A;
+}
+/*
+#wave-count{
+
+} */

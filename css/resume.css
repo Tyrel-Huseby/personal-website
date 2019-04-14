@@ -1,0 +1,143 @@
+body {
+background: #376E6F;
+}
+#job { 
+  margin-top:25px;
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+#bar-wrapper{
+  background-image: linear-gradient(#116466, #376E6F );
+  margin-top: 45px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 4px solid ivory;
+}
+
+#front-bars{
+  margin: 15px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  
+} 
+#shadow-bars{
+  width: 10px; 
+  margin: 15px 10px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;  
+}
+
+.bar{
+  height: 30px;
+  background-image: linear-gradient(-90deg, #D9B08C, #FFCB9A);
+  border: 2px solid ivory;
+  border-radius: 15px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+/* begin bar % */
+.bar-shadow{
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid ivory;
+}
+
+.python{
+  width: 62%; 
+}
+.html-lang{
+  width: 70%;
+}
+.css{
+  width: 40%;
+}
+.javascript{
+  width: 30%;
+}
+.java{
+  width: 14%;
+}
+.c-lang{
+  width: 15%;
+}
+.php{
+  width: 21%;
+}
+.react{
+  width: 7%;
+}
+.sql {
+  width: 40%;
+}
+/* end bar % */
+h2 {
+  color: #ffcb9a;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.content-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-gap:180px;
+  height: 1000px;
+  margin: 50px;
+  margin-top: 0px;
+  padding-bottom: 75px
+}
+
+.list{
+  font-family: "Roboto", sans-serif;
+  background: ivory;
+  font-size:20px;
+  margin:5% 190px;
+  border-radius: 5px;
+  border: 5px solid #FFCB8F;
+}
+
+.list p{
+  margin:25px 0px;
+  text-indent: 40px;
+}
+
+.list ul{
+  text-align:center;
+  margin: 60px 0px; 
+  padding: 0px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.list li{
+  margin:33px 0px;
+}
+
+.list h1, p{
+  margin: 0px 0px;
+}
+
+@media(max-width: 832px){
+  .content-wrapper{
+    height: 1200px;
+  }
+  #job{
+    font-size: .8em;
+  }
+  .list{
+    height: auto;
+  }
+}
+
+
