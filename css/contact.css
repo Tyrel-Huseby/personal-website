@@ -1,0 +1,34 @@
+.content-wrapper {
+	display: grid;
+	grid-template-columns: 500px [center-start] 2fr [center-end] 100px;
+	grid-template-rows: 125px [center-start] 2fr [center-end] 125px;
+}
+.contact {
+	
+	grid-row: center-start/center-end;
+	grid-column: center-start/center-end;
+	padding: 50px 250px;
+	font-family: "Roboto", sans-serif;
+	background: ivory;
+	font-size:20px;
+	border-radius: 5px;
+	border: 5px solid #FFCB8F;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+.contact-item{
+	width: 80%;
+}
+.contact-item h1 {
+	padding: 5px 50px;
+	cursor: pointer;
+	background: #116466;
+	border-radius: 25px;
+	color: #ffcb9a;
+	font-weight: bold;
+	font-size: 2.5em;
+	border: 5px solid #FFCB8F;
+	text-align: center;
+}
