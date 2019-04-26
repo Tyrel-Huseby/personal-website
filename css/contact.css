@@ -4,11 +4,32 @@ a{
 a:visited {
 	text-decoration: none;
 }
+
+p {
+	color: #ffcb9a;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
 .content-wrapper {
 	display: grid;
-	grid-template-columns: 500px [center-start] 2fr [center-end] 100px;
+	grid-template-columns: 650px [center-start] 2fr [center-end] 100px;
 	grid-template-rows: 125px [center-start] 2fr [center-end] 125px;
 }
+
+.contact-image {
+	grid-row: 2;
+	grid-column: 1;
+	display: grid;
+	justify-items: center;
+}
+
+.contact-image img{
+	width: 75%;
+	height: 65%;
+	clip-path: circle(50% at 50% 50%);
+}
+
 .contact {
 	
 	grid-row: center-start/center-end;
